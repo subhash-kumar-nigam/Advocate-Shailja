@@ -14,8 +14,7 @@ export default function Projects() {
       tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySQL"],
       github: "https://github.com/subhash-kumar-nigam",
       live: "https://novarsistech.com/",
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=60",
+      image: "/Images/novarsis.webp",
     },
     {
       title: "FOICT – Finding Opportunities In Changing Times",
@@ -28,8 +27,7 @@ export default function Projects() {
       tech: ["React.js", "Node.js", "Express.js", "MySQL"],
       github: "https://github.com/subhash-kumar-nigam",
       live: "https://foict.com/",
-      image:
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=60",
+      image: "/Images/foict.png",
     },
     {
       title: "Pathak Pest Control (PPC)",
@@ -42,8 +40,7 @@ export default function Projects() {
       tech: ["React.js", "Node.js", "Express.js", "MySQL"],
       github: "https://github.com/subhash-kumar-nigam",
       live: "https://pathakpestcontrol.com/",
-      image:
-        "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&w=900&q=60",
+      image: "/Images/pestcontrol.jpg",
     },
     {
       title: "Yashsoft Website",
@@ -56,11 +53,10 @@ export default function Projects() {
       tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MySQL"],
       github: "https://github.com/subhash-kumar-nigam",
       live: "https://www.yashsoftsolution.com/",
-      image:
-        "https://images.unsplash.com/photo-1505685296765-3a2736de412f?auto=format&fit=crop&w=900&q=60",
+      image: "/Images/yashsoft.png",
     },
     {
-      title: "AlphaSilver Website",
+      title: "AlphaPlatinum Website",
       description: [
         "Frontend-only shopping cart application built in React.js.",
         "Users can add/remove products and adjust quantities.",
@@ -70,8 +66,7 @@ export default function Projects() {
       tech: ["React.js", "Tailwind CSS", "Context API"],
       github: "https://github.com/subhash-kumar-nigam",
       live: "#",
-      image:
-        "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=60",
+      image: "/Images/alphapratium.png",
     },
     {
       title: "Shopping Cart Website",
@@ -85,7 +80,7 @@ export default function Projects() {
       github: "https://github.com/subhash-kumar-nigam",
       live: "#",
       image:
-        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=60",
+        "/Images/shopping.jpg",
     },
   ];
 
@@ -108,9 +103,9 @@ export default function Projects() {
         className="max-w-3xl mx-auto text-gray-300 text-center mb-16 text-lg"
       >
         A showcase of full-stack and frontend web applications I’ve developed —
-        blending{" "}
-        <span className="text-teal-300 font-semibold">creativity</span>,{" "}
-        <span className="text-teal-300 font-semibold">responsive UI</span>, and{" "}
+        blending <span className="text-teal-300 font-semibold">creativity</span>
+        , <span className="text-teal-300 font-semibold">responsive UI</span>,
+        and{" "}
         <span className="text-teal-300 font-semibold">
           scalable backend solutions
         </span>
@@ -129,11 +124,13 @@ export default function Projects() {
             className="relative bg-gray-800/70 rounded-2xl shadow-lg overflow-hidden border border-gray-700 hover:border-teal-400 hover:shadow-teal-500/40 transition-all duration-500"
           >
             {/* Image */}
-            <div className="h-56 overflow-hidden relative">
+            {/* Image (Logo Centered Style) */}
+            <div className="h-56 flex items-center justify-center bg-gray-900/40">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
+                className="max-h-40 max-w-[80%] object-contain rounded-lg drop-shadow-lg transition-transform duration-700 hover:scale-110"
+                loading="lazy"
               />
             </div>
 

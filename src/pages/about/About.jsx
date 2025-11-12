@@ -41,7 +41,7 @@ export default function About() {
           <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-400 to-teal-400 blur-lg opacity-50 group-hover:opacity-80 transition duration-500"></div>
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-400 shadow-2xl">
             <img
-              src="https://avatars.githubusercontent.com/u/9919?s=280&v=4"
+              src="/Images/subhash.png"
               alt="Subhash Nigam"
               className="w-full h-full object-cover scale-105 group-hover:scale-110 transition-transform duration-700"
             />
