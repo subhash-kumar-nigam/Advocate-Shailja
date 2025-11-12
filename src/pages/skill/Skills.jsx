@@ -23,11 +23,6 @@ export default function Skills() {
     visible: { opacity: 1, y: 0 },
   };
 
-  const skillBarColors = [
-    "from-blue-400 to-teal-400",
-    "from-green-400 to-teal-500",
-    "from-cyan-400 to-blue-500",
-  ];
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-950 via-blue-950 to-teal-900 text-white px-6 md:px-16 py-24 md:py-32 overflow-hidden relative">

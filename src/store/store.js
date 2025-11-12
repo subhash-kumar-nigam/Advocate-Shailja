@@ -4,7 +4,7 @@ import jobReducer from "../slice/jobSlice";
 
 import authSlice from '../slice/authSlice';
 import userSlice from '../slice/userSlice';
-import contactusSlice from '../slice/contactusSlice';
+
  import serviceReducer from "../slice/serviceSlice";
 import blogReducer from '../slice/blogSlice';
 import contactReducer from '../slice/contactSlice';
@@ -28,8 +28,7 @@ const store = configureStore({
   reducer: {
     auth: authSlice,
     user: userSlice,
-    contact: contactusSlice,
-     applyForm: applyFormReducer,
+    applyForm: applyFormReducer,
     job: jobReducer,
     services: serviceReducer,
     blog: blogReducer,
