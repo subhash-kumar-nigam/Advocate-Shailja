@@ -128,7 +128,7 @@ const ASSETS = {
 };
 
 const BABY = {
-  name: "Sheeja Nigam",
+  name: "Shreeja Nigam",
   nickname: "sona",
   dob: "10-09-2024", // DD-MM-YYYY
 
