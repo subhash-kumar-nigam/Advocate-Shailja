@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Experience = () => {
   return (
@@ -6,11 +7,11 @@ const Experience = () => {
 
       {/* HERO / TITLE */}
       <section className="relative bg-gray-900 text-white py-24">
-        <div className="absolute left-0 top-0 h-full w-2 bg-teal-500"></div>
+        <div className="absolute left-0 top-0 h-full w-2 bg-[#6366F1]"></div>
 
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide">
-            Legal <span className="text-teal-500">Experience</span>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide mt-10">
+            Legal <span className="text-[#6366F1]">Experience</span>
           </h1>
 
           <p className="mt-6 text-gray-300 text-lg max-w-3xl mx-auto">
@@ -21,15 +22,15 @@ const Experience = () => {
 
       {/* OVERVIEW */}
       <section className="py-20 bg-white relative">
-        <div className="absolute right-0 top-0 h-full w-1 bg-teal-500"></div>
+        <div className="absolute right-0 top-0 h-full w-1 bg-[#6366F1]"></div>
 
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-gray-900 text-center">
-            Professional <span className="text-teal-500"> Experience Overview</span>
+            Professional <span className="text-[#6366F1]"> Experience Overview</span>
           </h2>
 
-          <p className="mt-8 text-gray-700 max-w-4xl mx-auto text-center leading-loose border-l-4 border-teal-500 pl-6">
-            Advocate <span className="font-semibold text-teal-600">Shailja Kushwaha</span> 
+          <p className="mt-8 text-gray-700 max-w-4xl mx-auto text-center leading-loose border-l-4 border-[#6366F1] pl-6">
+            Advocate <span className="font-semibold text-[#6366F1]">Shailja Kushwaha</span> 
             has over <strong>2 years of professional experience</strong> in legal practice,
             actively handling matters related to <strong>Civil, Criminal, and Revenue laws</strong>.
             Her experience includes representation before Civil Court and handling
@@ -38,11 +39,36 @@ const Experience = () => {
         </div>
       </section>
 
+     {/* INTERNSHIP / WORK EXPERIENCE */}
+<section className="py-20 bg-gray-100">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="text-3xl font-bold text-gray-900 text-center">
+      Work <span className="text-[#6366F1]">Experience</span>
+    </h2>
+
+    <div className="mt-12 max-w-3xl mx-auto">
+      <div className="bg-white border-l-4 border-[#6366F1] p-6 rounded-xl shadow-md">
+        <h3 className="text-xl font-semibold text-gray-900">
+          Madhya Pradesh State <span className="text-[#6366F1]">Legal Services</span>  Authority
+        </h3>
+        <p className="mt-2 text-[#6366F1] font-medium">
+          Internship: 03 Dec 2024 - 23 Dec 2024
+        </p>
+        <p className="mt-2 text-gray-700 text-sm leading-relaxed">
+          Hands-on experience in legal services, court procedures, and client interaction.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
       {/* EXPERIENCE CARDS */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-gray-900">
-            Areas of <span className="text-teal-500">Legal Practice</span>
+            Areas of <span className="text-[#6366F1]">Legal Practice</span>
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 mt-14">
@@ -65,14 +91,14 @@ const Experience = () => {
             ].map((item, index) => (
               <div
                 key={index}
-                className="bg-white border-2 border-teal-500 rounded-2xl p-8 text-center 
+                className="bg-white border-2 border-[#6366F1] rounded-2xl p-8 text-center 
                 transform hover:-translate-y-4 hover:scale-105 transition duration-500 shadow-lg"
               >
                 <h3 className="text-2xl font-semibold text-gray-900">
                   {item.title}
                 </h3>
 
-                <p className="mt-2 text-teal-600 font-semibold">
+                <p className="mt-2 text-[#6366F1] font-semibold">
                   {item.years}
                 </p>
 
@@ -87,11 +113,11 @@ const Experience = () => {
 
       {/* WORK RESPONSIBILITIES */}
       <section className="py-20 bg-white relative">
-        <div className="absolute left-0 top-0 h-full w-1 bg-teal-500"></div>
+        <div className="absolute left-0 top-0 h-full w-1 bg-[#6366F1]"></div>
 
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-gray-900">
-            Court Work <span className="text-teal-500">& Responsibilities</span>
+            Court Work <span className="text-[#6366F1]">& Responsibilities</span>
           </h2>
 
           <div className="grid md:grid-cols-2 gap-10 mt-14">
@@ -103,7 +129,7 @@ const Experience = () => {
             ].map((work, index) => (
               <div
                 key={index}
-                className="border-l-4 border-teal-500 bg-gray-50 p-6 rounded-xl
+                className="border-l-4 border-[#6366F1] bg-gray-50 p-6 rounded-xl
                 transform hover:scale-105 transition duration-300"
               >
                 <p className="text-gray-700 leading-relaxed">
@@ -116,7 +142,7 @@ const Experience = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-black">
+      <section className="py-20 bg-[#6366F1] text-white">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-extrabold">
             Experienced Legal Support You Can Trust
@@ -126,12 +152,12 @@ const Experience = () => {
             Connect for professional and reliable legal assistance.
           </p>
 
-          <button
+      <Link to="/contact">   <button
             className="mt-8 bg-black text-white px-12 py-4 rounded-xl 
             transform hover:scale-110 hover:bg-gray-900 transition duration-300"
           >
-            Consult Now
-          </button>
+           Contact
+          </button></Link> 
         </div>
       </section>
 

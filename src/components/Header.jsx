@@ -11,8 +11,7 @@ const Navbar = () => {
     { to: "/", label: "Home" },
     { to: "/about", label: "About" },
     { to: "/skills", label: "Skills" },
-    { to: "/experience", label: "Experience" }, // ✅ NEW PAGE ADDED HERE
-    
+    { to: "/experience", label: "Experience" },
   ];
 
   return (
@@ -23,7 +22,13 @@ const Navbar = () => {
           <img
             src="/Images/logo.png" // ✅ Update your logo path here
             alt="Subhash Logo"
-            className="w-16 h-16 rounded-full border-2 border-teal-500 shadow-lg hover:scale-110 hover:shadow-teal-300 transition-all duration-300"
+            className="
+    w-16 h-16         // Default size (desktop)
+    sm:w-20 sm:h-20   // Small screens (≥640px)
+    md:w-16 md:h-16   // Medium screens (≥768px)
+    rounded-full border-2 border-[#6366F1] 
+    shadow-lg hover:scale-110 hover:shadow-[#6366F1] transition-all duration-300
+  "
           />
         </Link>
 
@@ -36,8 +41,8 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `cursor-pointer transition-all duration-300 text-lg ${
                     isActive
-                      ? "text-teal-500 border-b-2 border-teal-500 pb-1"
-                      : "hover:text-teal-500"
+                      ? "text-[#6366F1] border-b-2 border-[#6366F1] pb-1"
+                      : "hover:text-[#6366F1]"
                   }`
                 }
               >
@@ -51,7 +56,7 @@ const Navbar = () => {
         <div className="hidden md:block">
           <Link
             to="/contact"
-            className="bg-teal-500 text-white px-7 py-3 rounded-full font-semibold text-lg hover:bg-teal-600 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
+            className="bg-[#6366F1] text-white px-7 py-3 rounded-full font-semibold text-lg hover:bg-[#6366F1] transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
           >
             Contact
           </Link>
@@ -77,7 +82,7 @@ const Navbar = () => {
                   onClick={toggleMenu}
                   className={({ isActive }) =>
                     `cursor-pointer transition-colors ${
-                      isActive ? "text-teal-500" : "hover:text-teal-500"
+                      isActive ? "text-[#6366F1]" : "hover:text-[#6366F1]"
                     }`
                   }
                 >
@@ -91,7 +96,7 @@ const Navbar = () => {
               <Link
                 to="/contact"
                 onClick={toggleMenu}
-                className="bg-teal-500 text-white px-7 py-3 rounded-full font-semibold text-lg hover:bg-teal-600 transition-all duration-300 shadow-md hover:scale-105"
+                className="bg-[#6366F1] text-white px-7 py-3 rounded-full font-semibold text-lg hover:bg-[#6366F1] transition-all duration-300 shadow-md hover:scale-105"
               >
                 Contact
               </Link>

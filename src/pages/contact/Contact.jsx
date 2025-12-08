@@ -6,11 +6,11 @@ const Contact = () => {
 
       {/* HERO SECTION */}
       <section className="relative bg-gray-900 text-white py-24">
-        <div className="absolute left-0 top-0 h-full w-2 bg-teal-500"></div>
+        <div className="absolute left-0 top-0 h-full w-2 bg-[#6366F1]"></div>
 
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold">
-            Contact <span className="text-teal-500">Advocate</span>
+          <h1 className="text-4xl md:text-6xl font-extrabold mt-10">
+            Contact <span className="text-[#6366F1]">Advocate</span>
           </h1>
 
           <p className="mt-6 text-gray-300 max-w-3xl mx-auto">
@@ -21,24 +21,24 @@ const Contact = () => {
 
       {/* CONTACT DETAILS */}
       <section className="py-20 bg-white relative">
-        <div className="absolute right-0 top-0 h-full w-1 bg-teal-500"></div>
+        <div className="absolute right-0 top-0 h-full w-1 bg-[#6366F1]"></div>
 
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
 
           {/* LEFT DETAILS */}
           <div className="space-y-8 transform hover:scale-105 transition duration-500">
-            <h2 className="text-3xl font-bold text-gray-900">
-              Advocate Shailja Kushwaha
+            <h2 className="text-3xl font-bold text-black">
+              Advocate <span className="text-[#6366F1]">Shailja Kushwaha</span> 
             </h2>
 
-            <p className="text-teal-600 font-semibold">
-              LLB, LLM | Civil Court, Katni
+            <p className="text-[#6366F1] font-semibold">
+              LLB, LLM | Civil Court,Vgrh (Katni)
             </p>
 
-            <div className="border-l-4 border-teal-500 pl-5 space-y-4">
+            <div className="border-l-4 border-[#6366F1] pl-5 space-y-4">
               <p className="text-gray-700 text-lg">
-                📍 <strong>Office Address:</strong><br />
-                Near Civil Court, Katni, Madhya Pradesh
+                📍 <strong> Address:</strong><br />
+                Near Bus Stand Singoudi, Block-Vgrh (Katni)
               </p>
 
               <p className="text-gray-700 text-lg">
@@ -53,7 +53,7 @@ const Contact = () => {
 
               <p className="text-gray-700 text-lg">
                 🏛️ <strong>Court Practice:</strong><br />
-                Civil Court, Katni
+                Civil Court, Vgrh (Katni)
               </p>
             </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
           </div>
 
           {/* RIGHT BOX */}
-          <div className="bg-gray-50 border-2 border-teal-500 rounded-2xl p-10 shadow-xl
+          <div className="bg-gray-50 border-2 border-[#6366F1] rounded-2xl p-10 shadow-xl
             transform hover:-translate-y-3 hover:scale-105 transition duration-500">
 
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="space-y-6 text-center">
               <a
                 href="tel:+91XXXXXXXXXX"
-                className="block bg-teal-500 text-black px-8 py-4 rounded-xl 
+                className="block bg-[#6366F1] text-black px-8 py-4 rounded-xl 
                 font-semibold hover:scale-110 transform transition"
               >
                 📞 Call Now
@@ -103,21 +103,10 @@ const Contact = () => {
       </section>
 
       {/* MAP SECTION */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Office Location
-          </h2>
-
-          <div className="w-full h-80 border-4 border-teal-500 rounded-xl 
-            flex items-center justify-center text-gray-600 bg-white">
-            Google Map – Civil Court, Katni
-          </div>
-        </div>
-      </section>
+    
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-r from-teal-500 to-teal-600 text-black">
+      <section className="py-20 bg-[#6366F1] text-black">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-extrabold">
             Trusted Legal Guidance

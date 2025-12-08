@@ -23,7 +23,7 @@ const Top = () => {
   return (
     <button
       onClick={scrollToTop}
-      className="fixed bottom-8 right-8 bg-teal-500 hover:bg-[#fc3c04] text-white rounded-full px-6 py-3 font-semibold shadow-lg flex items-center gap-2 z-50"
+      className="fixed bottom-8 right-8 bg-[#6366F1] hover:bg-[#fc3c04] text-white rounded-full px-6 py-3 font-semibold shadow-lg flex items-center gap-2 z-50"
       aria-label="Back to Top"
     >
        <span style={{ fontSize: "1.2rem" }}>↑</span>
