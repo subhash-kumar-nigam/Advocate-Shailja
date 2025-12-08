@@ -73,18 +73,18 @@ export default function Footer() {
 
             <p className="flex items-center justify-center md:justify-start gap-3">
               <FaPhoneAlt className="text-[#6366F1]" />
-              <a href="tel:+919999999999" className="hover:text-[#6366F1]">
-                +91 XXXXXXXXXX
+              <a href="tel:+9752630928" className="hover:text-[#6366F1]">
+                +91 9752630928
               </a>
             </p>
 
             <p className="flex items-center justify-center md:justify-start gap-3">
               <FaEnvelope className="text-[#6366F1]" />
               <a
-                href="mailto:adv.shailja@email.com"
+                href="mailto:sshailjakushwaha@gmail.com"
                 className="hover:text-[#6366F1]"
               >
-                adv.shailja@email.com
+               sshailjakushwaha@gmail.com
               </a>
             </p>
           </div>

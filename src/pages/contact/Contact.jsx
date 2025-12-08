@@ -43,12 +43,12 @@ const Contact = () => {
 
               <p className="text-gray-700 text-lg">
                 📞 <strong>Phone:</strong><br />
-                +91 XXXXX XXXXX
+                +91 9752630928
               </p>
 
               <p className="text-gray-700 text-lg">
                 ✉️ <strong>Email:</strong><br />
-                advocate@email.com
+               sshailjakushwaha@gmail.com
               </p>
 
               <p className="text-gray-700 text-lg">
@@ -74,7 +74,7 @@ const Contact = () => {
 
             <div className="space-y-6 text-center">
               <a
-                href="tel:+91XXXXXXXXXX"
+                href="tel:+919752630928"
                 className="block bg-[#6366F1] text-black px-8 py-4 rounded-xl 
                 font-semibold hover:scale-110 transform transition"
               >
@@ -82,7 +82,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/919752630928"
                 className="block bg-green-500 text-black px-8 py-4 rounded-xl 
                 font-semibold hover:scale-110 transform transition"
               >
@@ -90,7 +90,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:advocate@email.com"
+                href="mailto:sshailjakushwaha@gmail.com"
                 className="block bg-gray-900 text-white px-8 py-4 rounded-xl 
                 font-semibold hover:scale-110 transform transition"
               >
