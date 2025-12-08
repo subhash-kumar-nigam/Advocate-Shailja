@@ -12,7 +12,7 @@ const Navbar = () => {
     { to: "/about", label: "About" },
     { to: "/skills", label: "Skills" },
     { to: "/experience", label: "Experience" }, // ✅ NEW PAGE ADDED HERE
-    { to: "/projects", label: "Projects" },
+    
   ];
 
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* 🔹 Logo (bigger and enhanced) */}
         <Link to="/" className="flex items-center cursor-pointer">
           <img
-            src="/Images/subhash.png" // ✅ Update your logo path here
+            src="/Images/logo.png" // ✅ Update your logo path here
             alt="Subhash Logo"
             className="w-16 h-16 rounded-full border-2 border-teal-500 shadow-lg hover:scale-110 hover:shadow-teal-300 transition-all duration-300"
           />

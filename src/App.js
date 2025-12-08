@@ -11,6 +11,12 @@ import OtpVerification from './pages/user/OtpVerification';
 import MyProfile from './pages/user/Myrpofile';
 import MyCourse from './pages/user/MyCourse';
 import MyJob from './pages/user/MyJob';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './pages/about/About';
+import Experience from './pages/experience/Experience';
+import Skills from './pages/skill/Skills';
+import Contact from './pages/contact/Contact';
 
 
 
@@ -18,11 +24,15 @@ import MyJob from './pages/user/MyJob';
 const App = () => {
   return (
     <>
-    {/* <Header /> */}
+    <Header />
     <ScrollToTop />
         <Routes>
         {/* General Pages */}
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contact" element={<Contact />} />
        
         {/* Auth */}
         <Route path="/login" element={<Login />} />
@@ -38,7 +48,7 @@ const App = () => {
 
       </Routes>
         <Top />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
