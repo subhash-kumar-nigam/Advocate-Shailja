@@ -51,29 +51,20 @@ const About = () => {
           </div>
 
           {/* IMAGE */}
-       <div className="flex justify-center">
-  <div
-    className="
-      h-60 sm:h-72 w-full max-w-sm
-      bg-gray-200
-      border-4 border-[#6366F1]
-      rounded-2xl
-      overflow-hidden
-      flex items-center justify-center
-      shadow-lg
-    "
-  >
-    <img
-      src="/Images/pic2.jpeg"
-      alt="preview"
-      className="
-        w-full h-full
-        object-cover
-      "
-    />
-  </div>
-</div>
-
+          <div className="flex justify-center">
+            <div className="
+              h-72 sm:h-80 w-full max-w-sm
+              bg-gray-200
+              border-4 border-[#6366F1]
+              rounded-2xl
+              flex items-center justify-center
+              shadow-lg
+            ">
+              <span className="text-gray-600 font-medium text-sm">
+            <img src="/Images/pic2.jpeg" alt="" />
+              </span>
+            </div>
+          </div>
 
         </div>
       </section>
