@@ -30,7 +30,7 @@ const Experience = () => {
           </h2>
 
           <p className="mt-8 text-gray-700 max-w-4xl mx-auto text-center leading-loose border-l-4 border-[#6366F1] pl-6">
-            Advocate <span className="font-semibold text-[#6366F1]">Shailja Kushwaha</span> 
+            Advocate <span className="font-semibold text-[#6366F1]">Shailja Kushwaha </span> 
             has over <strong>2 years of professional experience</strong> in legal practice,
             actively handling matters related to <strong>Civil, Criminal, and Revenue laws</strong>.
             Her experience includes representation before Civil Court and handling
@@ -49,7 +49,7 @@ const Experience = () => {
     <div className="mt-12 max-w-3xl mx-auto">
       <div className="bg-white border-l-4 border-[#6366F1] p-6 rounded-xl shadow-md">
         <h3 className="text-xl font-semibold text-gray-900">
-          Madhya Pradesh State <span className="text-[#6366F1]">Legal Services</span>  Authority
+          State <span className="text-[#6366F1]">Legal Services</span>  Authority  Madhya Pradesh
         </h3>
         <p className="mt-2 text-[#6366F1] font-medium">
           Internship: 03 Dec 2024 - 23 Dec 2024

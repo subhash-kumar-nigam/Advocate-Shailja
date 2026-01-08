@@ -38,7 +38,7 @@ const About = () => {
 
             <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed border-l-4 border-[#6366F1] pl-4">
               Advocate Shailja Kushwaha is a qualified legal professional holding
-              <strong> LLB (Legum Baccalaureus) </strong>and <strong> LLM (Legum Magister) </strong>degrees. She actively
+              <strong> LLB  </strong>and <strong> LLM  </strong>degrees. She actively
               practices at the <strong>DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )</strong> and provides
               sincere, ethical and result-oriented legal solutions.
             </p>
@@ -79,11 +79,11 @@ const About = () => {
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mt-10">
             {[
               {
-                title: "Bachelor of Laws Legum Baccalaureus (LLB)",
+                title: " Legum Baccalaureus (LLB)",
                 desc: "Strong legal foundation with focus on civil laws.",
               },
               {
-                title: "Master of Laws Legum Magister (LLM)",
+                title: " Legum Magister (LLM)",
                 desc: "Advanced understanding of procedural and substantive law.",
               },
               {
