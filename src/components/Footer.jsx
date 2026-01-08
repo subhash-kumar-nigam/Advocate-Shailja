@@ -24,7 +24,7 @@ export default function Footer() {
           <p className="text-gray-600 text-sm leading-relaxed">
             LLB, LLM • Practicing Advocate at{" "}
             <span className="text-[#6366F1] font-semibold">
-              Civil Court, Vgrh (Katni)
+             DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )
             </span>
             .
             Providing professional legal services with integrity,
@@ -68,7 +68,7 @@ export default function Footer() {
           <div className="space-y-4 text-sm text-gray-600">
             <p className="flex items-center justify-center md:justify-start gap-3">
               <FaMapMarkerAlt className="text-[#6366F1]" />
-              Civil Court Vgrh, Katni (M.P.)
+              DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )
             </p>
 
             <p className="flex items-center justify-center md:justify-start gap-3">

@@ -18,7 +18,7 @@ const Home = () => {
 
             <p className="text-lg text-gray-300">LLB, LLM</p>
 
-            <p className="text-sm text-gray-400">Civil Court, Vgrh (Katni)</p>
+            <p className="text-sm text-gray-400">DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )</p>
 
             <Link
               to="/contact"
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 items-center">
           <div className="flex justify-center order-2 md:order-1">
             <img
-              src="/Images/home.png"
+              src="/Images/pic4.jpeg"
               alt="Advocate at Court"
               className="w-64 sm:w-72 rounded-xl border-l-8 border-[#6366F1] shadow-xl"
             />
@@ -90,7 +90,7 @@ const Home = () => {
                 Shailja Kushwaha
               </span>{" "}
               holds <strong>LLB</strong> and <strong>LLM</strong> degrees and
-              practices at the <strong>Civil Court, Vgrh (Katni)</strong>. She
+              practices at the <strong>DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )</strong>. She
               provides reliable legal representation in civil, criminal and
               revenue matters with ethical advocacy.
             </p>

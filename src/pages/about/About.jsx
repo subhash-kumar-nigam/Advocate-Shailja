@@ -33,13 +33,13 @@ const About = () => {
             </h2>
 
             <p className="mt-1 text-[#6366F1] font-semibold text-sm sm:text-base">
-              LLB, LLM | Civil Court, Vgrh (Katni)
+              LLB, LLM | DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )
             </p>
 
             <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed border-l-4 border-[#6366F1] pl-4">
               Advocate Shailja Kushwaha is a qualified legal professional holding
-              <strong> LLB </strong>and <strong> LLM </strong>degrees. She actively
-              practices at the <strong>Civil Court, Vgrh (Katni)</strong> and provides
+              <strong> LLB (Legum Baccalaureus) </strong>and <strong> LLM (Legum Magister) </strong>degrees. She actively
+              practices at the <strong>DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )</strong> and provides
               sincere, ethical and result-oriented legal solutions.
             </p>
 
@@ -61,7 +61,7 @@ const About = () => {
               shadow-lg
             ">
               <span className="text-gray-600 font-medium text-sm">
-            <img src="/Images/about.png" alt="" />
+            <img src="/Images/pic2.jpeg" alt="" />
               </span>
             </div>
           </div>
@@ -79,11 +79,11 @@ const About = () => {
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 mt-10">
             {[
               {
-                title: "Bachelor of Laws (LLB)",
+                title: "Bachelor of Laws Legum Baccalaureus (LLB)",
                 desc: "Strong legal foundation with focus on civil laws.",
               },
               {
-                title: "Master of Laws (LLM)",
+                title: "Master of Laws Legum Magister (LLM)",
                 desc: "Advanced understanding of procedural and substantive law.",
               },
               {

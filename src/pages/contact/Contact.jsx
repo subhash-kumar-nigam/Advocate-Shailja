@@ -32,7 +32,7 @@ const Contact = () => {
             </h2>
 
             <p className="text-[#6366F1] font-semibold">
-              LLB, LLM | Civil Court,Vgrh (Katni)
+              LLB, LLM |DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )
             </p>
 
             <div className="border-l-4 border-[#6366F1] pl-5 space-y-4">
@@ -53,7 +53,7 @@ const Contact = () => {
 
               <p className="text-gray-700 text-lg">
                 🏛️ <strong>Court Practice:</strong><br />
-                Civil Court, Vgrh (Katni)
+                DISTRICT AND ADDITIONAL SESSIONS COURT VIJAYRAGHAVGARH ( KATNI )
               </p>
             </div>
 

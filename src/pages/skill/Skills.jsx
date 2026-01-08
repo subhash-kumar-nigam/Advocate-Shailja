@@ -30,7 +30,7 @@ const Skills = () => {
   <div className="absolute inset-0 border-4 border-[#6366F1] rounded-2xl translate-x-4 translate-y-4"></div>
 
   <img
-    src="/Images/skill1.png"
+    src="/Images/pic3.jpeg"
     alt="Advocate Shailja Kushwaha"
     className="relative z-10 rounded-2xl shadow-xl 
                transform group-hover:scale-105 transition duration-500
